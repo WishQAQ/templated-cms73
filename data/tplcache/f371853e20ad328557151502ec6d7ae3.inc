@@ -1,0 +1,1 @@
+<li style="background:url('[field:img2/]') no-repeat center top"><a href="[field:lianjie/]" target="_blank">Alan建站alantb.taobao.com</a></li>

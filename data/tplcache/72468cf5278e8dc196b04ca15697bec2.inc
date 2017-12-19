@@ -1,0 +1,1 @@
+<a href="#TB_inline?height=560&width=830&background=#000&inlineId=videito" rel="sexylightbox" title="[field:title/]"> <img src="[field:img2/]" /></a>

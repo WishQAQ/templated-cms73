@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta content="{dede:field.keywords/}" name="keywords" />
+<meta content="{dede:field.description  function='html2text(@me)'/}" name="description" />
+<link href="/skin/css/style.css" rel="stylesheet" type="text/css" />
+<!--客服-->
+<link href="/skin/css/zzsc.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="/skin/js/jquery-1.7.min.js"></script>
+<script>
+$(function() {
+	// 悬浮窗口
+	$(".yb_conct").hover(function() {
+		$(".yb_conct").css("right", "5px");
+		$(".yb_bar .yb_ercode").css('height', '200px');
+	}, function() {
+		$(".yb_conct").css("right", "-127px");
+		$(".yb_bar .yb_ercode").css('height', '53px');
+	});
+	// 返回顶部
+	$(".yb_top").click(function() {
+		$("html,body").animate({
+			'scrollTop': '0px'
+		}, 300)
+	});
+});
+</script>
+<!--客服-->
+</head>
+<body style="background-color:#fff;">
+<!--头部--> 
+{dede:include filename='head.htm'/} 
+<!--头部--> 
+{dede:arclist  typeid='22'  orderby='pubdate'   addfields='img2,lianjie'  channelid='17'}
+<div class="news-ban"><img  src="[field:img2/]"  style="width:100%" /></div>
+{/dede:arclist}
+<div  class="news">
+  <div class="news-fl">
+    <div class="news-h1">
+      <h1>{dede:field name='typename'/}</h1>
+      <h2>{dede:field.seotitle /}</h2>
+    </div>
+    <div class="news-ul">
+      <ul>
+        {dede:channel type ='sun'  }
+        <li><a href="[field:typelink/]">[field:typename/]</a></li>
+        {/dede:channel}
+      </ul>
+    </div>
+  </div>
+  <div class="news-fr">
+    <div class="news-contitle">
+      <h1>{dede:field.title/}</h1>
+      <b>来源：{dede:field.source/} &nbsp;&nbsp;作者：{dede:field.writer/}&nbsp;&nbsp; 时间：{dede:field name='pubdate' function='GetDateMk(@me)'/}&nbsp;&nbsp;浏览：<script src='{dede:field name='phpurl'/}/count.php?view=yes&aid={dede:field name='id'/}&mid={dede:field name='mid'/}'type='text/javascript' language='javascrip' ></script>次</b> </div>
+    <div class="news-con"> {dede:field.body/} </div>
+    <div class="pageup">{dede:prenext get='pre'/}</div>
+    <div class="pageup">{dede:prenext get='next'/}</div>
+  </div>
+</div>
+<!--底部--> 
+{dede:include filename='footer.htm'/} 
+<!--底部-->
+</body>
+</html>

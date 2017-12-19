@@ -1,0 +1,48 @@
+<?php
+$z[0]=Array("global","",622,648);
+$z[0][4]['name']="cfg_webname";
+$z[1]=Array("global","",673,700);
+$z[1][4]['name']="cfg_keywords";
+$z[2]=Array("global","",737,767);
+$z[2][4]['name']="cfg_description";
+$z[3]=Array("include","",2230,2265);
+$z[3][4]['filename']="head.htm";
+$z[4]=Array("arclist","\r\n      <li style=\"background:url('[field:img2/]') no-repeat center top\"><a href=\"[field:lianjie/]\" target=\"_blank\">Alan建站alantb.taobao.com</a></li>\r\n      ",2395,2659);
+$z[4][4]['typeid']="21";
+$z[4][4]['orderby']="pubdate";
+$z[4][4]['addfields']="img2,lianjie";
+$z[4][4]['channelid']="17";
+$z[5]=Array("arclist","\r\n      <li> <a href=\"[field:arcurl/]\"><img src=\"[field:picname/]\"  style=\"width:261px; height:220px; overflow:hidden;\" /></a> <a href=\"[field:arcurl/]\">\r\n        <h1>[field:title/]</h1>\r\n        </a>\r\n        <p>[field:ms/]……</p>\r\n      </li>\r\n      ",2818,3152);
+$z[5][4]['typeid']="4";
+$z[5][4]['row']="4";
+$z[5][4]['addfields']="ms";
+$z[5][4]['channelid']="6";
+$z[6]=Array("arclist"," <a href=\"#TB_inline?height=560&width=830&background=#000&inlineId=videito\" rel=\"sexylightbox\" title=\"[field:title/]\"> <img src=\"[field:img2/]\" /></a> ",3323,3591);
+$z[6][4]['typeid']="23";
+$z[6][4]['titlelen']="";
+$z[6][4]['row']="1";
+$z[6][4]['orderby']="";
+$z[6][4]['addfields']="img2,lianjie";
+$z[6][4]['channelid']="17";
+$z[7]=Array("arclist"," <a href=\"[field:arcurl/]\">\r\n        <h1>[field:title/]</h1>\r\n        </a>\r\n        <p>[field:description/]</p>\r\n      </div>\r\n      <div class=\"ban-newsimg\"> <a href=\"field:arcurl/]\"><img src=\"[field:picname/]\" style=\"width:260px; height:220px; overflow:hidden;\"/> </a> ",3664,4026);
+$z[7][4]['typeid']="17";
+$z[7][4]['row']="1";
+$z[7][4]['flag']="h";
+$z[7][4]['infolen']="320";
+$z[7][4]['orderby']="pubdate";
+$z[8]=Array("arclist","\r\n        <li> <a href=\"[field:arcurl/]\">\r\n          <h1>[field:title/]</h1>\r\n          </a>\r\n          <p>[field:pubdate function=\"GetDateMK(@me)\"/] </p>\r\n        </li>\r\n        ",4099,4362);
+$z[8][4]['typeid']="17";
+$z[8][4]['row']="3";
+$z[8][4]['orderby']="pubdate";
+$z[8][4]['titlelen']="60";
+$z[9]=Array("arclist","\r\n<div id=\"videito\" style=\"display:none;\">\r\n  <object width=\"800\" height=\"530\">\r\n    <param name=\"movie\" value=\"[field:lianjie/]\">\r\n    </param>\r\n    <param name=\"allowFullScreen\" value=\"true\">\r\n    </param>\r\n    <param name=\"allowscriptaccess\" value=\"always\">\r\n    </param>\r\n    <embed src=\"[field:lianjie/]\" type=\"application/x-shockwave-flash\" allowscriptaccess=\"always\" allowfullscreen=\"true\" width=\"800\" height=\"530\"></embed>\r\n  </object>\r\n  ",4426,4990);
+$z[9][4]['typeid']="23";
+$z[9][4]['titlelen']="";
+$z[9][4]['row']="1";
+$z[9][4]['orderby']="";
+$z[9][4]['addfields']="img2,lianjie";
+$z[9][4]['channelid']="17";
+$z[10]=Array("include","",5034,5071);
+$z[10][4]['filename']="footer.htm";
+
+?>

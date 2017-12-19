@@ -1,0 +1,1 @@
+<div class="news-ban"><img  src="[field:img2/]"  style="width:100%" /></div>

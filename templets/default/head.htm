@@ -1,0 +1,14 @@
+<div class="logo">
+  {dede:arclist   typeid='24'  titlelen='' row='1' orderby=''  addfields='img2,lianjie'  channelid='17'} <a href="[field:lianjie/]"><img src="[field:img2/]" /></a> {/dede:arclist} </div>
+<div class="nav-bk">
+  <div class="nav">
+    <ul>
+      <li><a href="/" {dede:field name=typeid runphp="yes"}(@me=="")? @me=" class='nav-a' ":@me="";{/dede:field} >网站首页</a></li>
+      {dede:channel type='top'  currentstyle="
+      <li><a href='~typelink~' class='nav-a'>~typename~</a> </li>
+      "}
+      <li><a href="[field:typeurl/]">[field:typename/]</a></li>
+      {/dede:channel}
+    </ul>
+  </div>
+</div>

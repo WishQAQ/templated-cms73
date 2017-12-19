@@ -1,0 +1,1 @@
+<a href="[field:lianjie/]"><img src="[field:img2/]" /></a>
